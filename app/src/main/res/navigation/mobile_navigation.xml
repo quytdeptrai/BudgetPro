@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.learncode.budgetpro.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.learncode.budgetpro.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.learncode.budgetpro.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.learncode.budgetpro.ui.chi.ChiFragment"
+        android:label="fragment_chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.learncode.budgetpro.ui.thu.ThuFragment"
+        android:label="fragment_thu"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="com.learncode.budgetpro.ui.gioithieu.GioiThieuFragment"
+        android:label="fragment_gioi_thieu2"
+        tools:layout="@layout/fragment_gioi_thieu2" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.learncode.budgetpro.ui.thongke.ThongKeFragment"
+        android:label="fragment_thong_ke3"
+        tools:layout="@layout/fragment_thong_ke3" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.learncode.budgetpro.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+</navigation>
